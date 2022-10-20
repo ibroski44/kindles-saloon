@@ -1,0 +1,127 @@
+body{
+    background: linear-gradient(to right,orchid,mediumturquoise,mediumorchid);
+}
+
+
+.text{
+    text-align: left;
+    margin-top: -10px;
+}
+
+.yum{
+    color:fuchsia;
+    background-color: aliceblue;
+    font-size: bold;
+}
+.gum{
+    background-color: fuchsia;
+    color: aliceblue;
+    font-size: bold;
+}
+.in{
+    font-size: 100px;
+    text-align: center;
+}
+.d-block{
+    height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px dotted aqua ;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.hum{
+    background: linear-gradient(to right red blue green);
+    font-size: 50;
+    margin-left:650px;
+    margin-top: -200px;
+}
+.carousel-item{
+    background: linear-gradient(to bottom,orchid,aqua,mediumorchid);
+    backdrop-filter: blur(2px);
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    border: 2px solid pink;
+}
+#appointement{
+    margin: 15px 0px;
+}
+.nav-link{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family:cursive;
+}
+.nav-brand{
+    text-decoration: none;
+    color: white;
+}
+.row{
+    background-color: white;
+    padding: 7% 15%;
+}
+
+.pinterest{
+    padding-left: 20px;
+    text-align: center;
+}
+.ig{
+    padding-left: 40px;
+    text-align: center;
+}
+.tweet{
+    padding-left:60px ;
+    text-align: center;
+}
+.fb{
+    padding-left: 80px;
+    text-align: center;
+}
+.container{
+    padding: 200px 70px;
+}
+footer{
+    color: white;
+    background:linear-gradient(to top,mediumorchid,cadetblue,mediumorchid);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.appointment{
+    background-color: aqua;
+}
+.img{
+    width: 50px;
+    border-radius: 100%;
+}
+.display-5{
+    font-size: 70;
+    color: white;
+}
+.turn{
+    text-align: end;
+    font-weight: bold;
+    font-size: 60;
+    color:white;
+    margin: -500px 650px;
+    position: relative;
+    left: 70px;
+}
+@media (max-width:900px)   {
+    .d-block{
+        height: 300px;
+        width: 300px;
+        /* margin-top: 20px;
+        margin-left: 100px; */
+        border: 2px dotted aqua ;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .turn{
+        color:white;
+        margin-top: 100px;
+    }
+    
+}

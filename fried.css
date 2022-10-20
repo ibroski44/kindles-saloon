@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.brand{
+    border: 5px solid white;
+    padding: 7px 7px;
+    font-family: cursive;
+    font-size: 5;
+}
+.navbar{
+    background-color:blue;
+}
+.nav-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+    text-align: center;
+}
